@@ -1,0 +1,38 @@
+.nav-menuitem{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.75);
+    position: absolute;
+    z-index: 3;
+}
+.nav-menuitem__ul__li__a{
+    text-align: center;
+    line-height: 8vh;
+    font-size: 1em;
+    border-bottom: 1px solid rgba(0, 0, 0,1);
+}
+.nav-menuitem__ul__li__a1{
+    margin-top: 10%;
+    border-top: 1px solid rgba(0, 0, 0,0.5);
+}
+.nav-menuitem__div__span__a{
+    text-align: center;
+    line-height: 8vh;
+    font-size: 0.5em;
+}
+.nav-menuitem__div__span-img{
+    position: absolute;
+    left: 50%;
+    margin-left: -10vw;
+    height: 10.5vh;
+    width: 20vw;
+}
+.skew-right{
+    transform: rotate(45deg);
+}
+.skew-left{
+    transform: rotate(-45deg);
+}
+.alp{
+    opacity: 0;
+}
